@@ -20,5 +20,16 @@ public class Equipo {
 				Arrays.toString(jugadores) + "]";
 	}
 	
+	public String cantidadDeJugadores() {
+		return "El número de jugadores que tiene el equipo es: " + jugadores.length;
+	}
+	
+	public boolean aptoParaJugar() {
+		if(jugadores.length >= 7) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 
 }
