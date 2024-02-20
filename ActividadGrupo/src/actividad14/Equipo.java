@@ -20,5 +20,14 @@ public class Equipo {
 				Arrays.toString(jugadores) + "]";
 	}
 	
+	// Método CHRISTIAN
+    public void mostrarJugadores() {
+        System.out.println("Jugadores del equipo " + nombre + ": " + jugadores);
+    }
+
+    // Método CHRISTIAN
+    public int existeJugador(String jugador) {
+        return jugadores.length;
+    }
 
 }
